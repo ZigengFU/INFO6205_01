@@ -49,7 +49,7 @@ public class GeneticAlgorithmGUI extends javax.swing.JFrame {
         configPanel.setLayout(null);
         configPanel.setBounds(10, 10, 472, 148);
         getContentPane().add(configPanel);
-        configPanel.setBorder(new TitledBorder(null, "configure information",
+        configPanel.setBorder(new TitledBorder(null, "Configuration",
                         TitledBorder.DEFAULT_JUSTIFICATION,
                         TitledBorder.DEFAULT_POSITION, null, null));
 
@@ -118,7 +118,7 @@ public class GeneticAlgorithmGUI extends javax.swing.JFrame {
                                     JOptionPane.PLAIN_MESSAGE);
             }
         });
-        closeButton.setText("Print the report");
+        closeButton.setText("Report");
         closeButton.setBounds(331, 64, 99, 23);
         configPanel.add(closeButton);
 
@@ -208,7 +208,7 @@ public class GeneticAlgorithmGUI extends javax.swing.JFrame {
                             GenerationDetail detail = ga.getDetail();
                             generationLabel.setText(String.valueOf(detail.getGeneration()+1));
                             averageFitnessLabel.setText(String.valueOf(detail.getAverageFitness()));
-                            maxFitnessLabel.setText(String.valueOf(detail	.getMaxFitness()));
+                            maxFitnessLabel.setText(String.valueOf(detail   .getMaxFitness()));
                             minFitnessLabel.setText(String.valueOf(detail.getMinFitness()));
                             progressBar.setValue(100 * (detail.getGeneration())/ Integer.valueOf(times-1));
                     }
