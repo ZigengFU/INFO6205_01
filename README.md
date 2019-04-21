@@ -30,8 +30,9 @@ We have GUI for displaying the evolution information, and can generate a report 
 
 ## Launching Instructions
 To launch and view the outputs of our GA program, please follow the following steps:
-1. Clone "INFO6205_501/GA_Team501" to your local path;
+1. Clone "INFO6205_501" to your local path;
 2. Open the project using IDE (NetBeans recommended);
-3. Add "INFO6205_501/GA_Team501/org.zip" into project library;
-4. Run the project and wait for the GUI present, click "Start" button to run the evolution and then click "Report" button to see the result;
-5. View the output data result which containing the information about the first and the last generation in "GA_Team501/codes/src/results.csv".
+3. Download dependent org.zip file by the google link: https://drive.google.com/file/d/1OLRGcEJIyQL_drWWOs6frtFfQX7xg_I0/view?usp=sharing;
+4. Add "org.zip" into project library;
+5. Run the project and wait for the GUI present, click "Start" button to run the evolution and then click "Report" button to see the result;
+6. View the output data result which containing the information about the first and the last generation in "GA_Team501/codes/src/results.csv".
